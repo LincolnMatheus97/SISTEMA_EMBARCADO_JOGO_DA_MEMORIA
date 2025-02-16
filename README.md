@@ -1,7 +1,5 @@
 # 🕹️ Sistema Embarcado - Jogo da Memória
 
-**Versão: 1.5.1**
-
 Este é um projeto de um **Jogo da Memória** desenvolvido para a placa de aprendizagem **BitDogLab** utilizando um **Raspberry Pi Pico W**. O jogo utiliza uma matriz de LED e um joystick para interação, proporcionando uma experiência divertida e educativa para aprendizado de sistemas embarcados.
 
 ⚠️ **Atenção**: Este projeto utiliza a versão **1.5.1** do **Pico SDK**. Certifique-se de estar utilizando a versão correta ao importar e compilar o código.
@@ -66,4 +64,4 @@ Este projeto está licenciado sob a **MIT License** - veja o arquivo [LICENSE](L
 
 ---
 
-Desenvolvido com ❤️ por [Lincoln Matheus](https://github.com/LincolnMatheus97).
+Desenvolvido por [Lincoln Matheus](https://github.com/LincolnMatheus97).
