@@ -26,26 +26,25 @@ Este é um projeto de um **Jogo da Memória** desenvolvido na placa didática **
 
 ```
 SISTEMA_EMBARCADO_JOGO_DA_MEMORIA/
-├── jogoMemoria/
-│   ├── .vscode/               # Configurações do VS Code
-│   ├── build/                 # Pasta de build
-│   ├── inc/                   # Arquivos de cabeçalho (.h)
-│   │   ├── buzzer.h
-│   │   ├── display_OLED.h
-│   │   ├── logica_jogo.h
-│   │   ├── matriz_led.h
-│   │   ├── ssd1306_font.h
-│   │   ├── ssd1306_i2c.c
-│   │   ├── ssd1306_i2c.h
-│   │   ├── ssd1306.h
-│   ├── CMakeLists.txt         # Configuração do CMake
-│   ├── pico_sdk_import.cmake  # Importação do Pico SDK
-│   ├── ws2818b.pio            # Configuração para matriz de LED
-│   ├── .gitignore             # Arquivos ignorados pelo Git
-│   ├── jogoMemoria.c          # Lógica principal do jogo
-│
-├── README.md            # Documentação principal
-└── LICENSE              # Licença do projeto
+
+├── .vscode/   # Configurações do VS Code 
+├── build/     # Pasta de build 
+├── inc/       # Arquivos de cabeçalho (.h) 
+│ ├── buzzer.h 
+│ ├── display_OLED.h 
+│ ├── logica_jogo.h 
+│ ├── matriz_led.h 
+│ ├── ssd1306_font.h 
+│ ├── ssd1306_i2c.h 
+│ ├── ssd1306.h 
+│ ├── ssd1306_i2c.c 
+├── .gitignore             # Arquivos ignorados pelo Git 
+├── CMakeLists.txt         # Configuração do CMake 
+├── pico_sdk_import.cmake  # Importação do Pico SDK 
+├── ws2818b.pio            # Configuração para matriz de LED 
+├── jogoMemoria.c          # Lógica principal do jogo 
+├── README.md              # Documentação principal 
+└── LICENSE                # Licença do projeto
 ```
 
 ## ⚙️ Como Executar
