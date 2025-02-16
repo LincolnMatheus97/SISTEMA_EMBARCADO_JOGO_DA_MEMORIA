@@ -1,6 +1,6 @@
 # 🕹️ Sistema Embarcado - Jogo da Memória
 
-Este é um projeto de um **Jogo da Memória** desenvolvido na placa didática **BitDogLab** utilizando um **Raspberry Pi Pico W**. O jogo utiliza a matriz de LEDs endereçáveis, display OLED, joystick, botões fisícos e buzzer para proporcionando uma experiência interativa, divertida e educativa para demonstrar os conhecimentos adquiridos na residência de sistemas embarcados **EmbarcaTech**
+Este é um projeto de um **Jogo da Memória** desenvolvido na placa didática **BitDogLab** utilizando um **Raspberry Pi Pico W**. O jogo utiliza a matriz de LEDs endereçáveis, display OLED, joystick, botões fisícos e buzzer para proporcionando uma experiência interativa, divertida e educativa para demonstrar os conhecimentos adquiridos na residência de sistemas embarcados **EmbarcaTech**.
 
 ⚠️ **Atenção**: Este projeto utiliza a versão **1.5.1** do **Pico SDK**. Certifique-se de estar utilizando a versão correta ao importar e compilar o código.
 
