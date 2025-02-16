@@ -20,9 +20,9 @@ Este é um projeto de um **Jogo da Memória** desenvolvido para a placa de apren
 - **Placa**: BitDogLab com Raspberry Pi Pico W
 - **IDE**: VS Code
 - **Bibliotecas**: 
-    Bibliotecas padrão do C: stdio.h, stdlib.h, string.h, time.h
-    Bibliotecas do SDK do Raspberry Pi Pico: pico/stdlib.h, hardware/pio.h, hardware/clocks.h, hardware/adc.h, hardware/pwm.h, hardware/i2c.h
-    Bibliotecas específicas do projeto: inc/matriz_led.h, inc/display_oled.h, inc/buzzer.h, inc/logica_jogo.h, ws2818b.pio.h
+   - Bibliotecas padrão do C: stdio.h, stdlib.h, string.h, time.h
+   - Bibliotecas do SDK do Raspberry Pi Pico: pico/stdlib.h, hardware/pio.h, hardware/clocks.h, hardware/adc.h, hardware/pwm.h, hardware/i2c.h
+   - Bibliotecas específicas do projeto: inc/matriz_led.h, inc/display_oled.h, inc/buzzer.h, inc/logica_jogo.h, ws2818b.pio.h
 
 ## 📦 Estrutura do Projeto
 
