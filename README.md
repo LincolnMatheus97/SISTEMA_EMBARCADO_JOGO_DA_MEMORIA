@@ -30,10 +30,10 @@ SISTEMA_EMBARCADO_JOGO_DA_MEMORIA/
 ├── .vscode/   # Configurações do VS Code 
 ├── build/     # Pasta de build 
 ├── inc/       # Arquivos de cabeçalho (.h) 
-│ ├── buzzer.h 
-│ ├── display_OLED.h 
-│ ├── logica_jogo.h 
-│ ├── matriz_led.h 
+│ ├── buzzer.h             # Configurações do buzzer
+│ ├── display_OLED.h       # Configurações do display OLED
+│ ├── logica_jogo.h        # Configurações de joystick e lógica do Jogo
+│ ├── matriz_led.h         # Configurações da matriz de LED
 │ ├── ssd1306_font.h 
 │ ├── ssd1306_i2c.h 
 │ ├── ssd1306.h 
