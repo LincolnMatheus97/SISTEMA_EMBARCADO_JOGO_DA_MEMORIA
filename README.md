@@ -54,8 +54,10 @@ SISTEMA_EMBARCADO_JOGO_DA_MEMORIA/
    git clone https://github.com/LincolnMatheus97/SISTEMA_EMBARCADO_JOGO_DA_MEMORIA.git
    ```
 2. Certifique-se de estar utilizando a versão **1.5.1** do **Pico SDK**.
-3. Compile o código e envie para a placa (dependendo do ambiente de desenvolvimento que você está usando).
-4. Conecte a BitDogLab e execute o jogo.
+3. Compile o código.
+4. Coloque a placa **BitDogLab** no modo BOOTSEL, e conecte ao computador.
+5. De Run no projeto e teste na placa.
+
 
 ## 📜 Licença
 
