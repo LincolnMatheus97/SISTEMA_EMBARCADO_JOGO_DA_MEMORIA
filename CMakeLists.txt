@@ -28,36 +28,36 @@ set(PICO_BOARD pico_w CACHE STRING "Board type")
 # Pull in Raspberry Pi Pico SDK (must be before project)
 include(pico_sdk_import.cmake)
 
-project(jogoMemoria C CXX ASM)
+project(SISTEMA_EMBARCADO_JOGO_DA_MEMORIA C CXX ASM)
 
 # Initialise the Raspberry Pi Pico SDK
 pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(jogoMemoria jogoMemoria.c inc/ssd1306_i2c.c)
+add_executable(SISTEMA_EMBARCADO_JOGO_DA_MEMORIA jogoMemoria.c inc/ssd1306_i2c.c)
 
-pico_set_program_name(jogoMemoria "jogoMemoria")
-pico_set_program_version(jogoMemoria "0.1")
+pico_set_program_name(SISTEMA_EMBARCADO_JOGO_DA_MEMORIA "jogoMemoria")
+pico_set_program_version(SISTEMA_EMBARCADO_JOGO_DA_MEMORIA "0.1")
 
 # Generate PIO header
-pico_generate_pio_header(jogoMemoria ${CMAKE_CURRENT_LIST_DIR}/ws2818b.pio)
+pico_generate_pio_header(SISTEMA_EMBARCADO_JOGO_DA_MEMORIA ${CMAKE_CURRENT_LIST_DIR}/ws2818b.pio)
 
 # Modify the below lines to enable/disable output over UART/USB
-pico_enable_stdio_uart(jogoMemoria 0)
-pico_enable_stdio_usb(jogoMemoria 1)
+pico_enable_stdio_uart(SISTEMA_EMBARCADO_JOGO_DA_MEMORIA 0)
+pico_enable_stdio_usb(SISTEMA_EMBARCADO_JOGO_DA_MEMORIA 1)
 
 # Add the standard library to the build
-target_link_libraries(jogoMemoria
+target_link_libraries(SISTEMA_EMBARCADO_JOGO_DA_MEMORIA
         pico_stdlib)
 
 # Add the standard include files to the build
-target_include_directories(jogoMemoria PRIVATE
+target_include_directories(SISTEMA_EMBARCADO_JOGO_DA_MEMORIA PRIVATE
         ${CMAKE_CURRENT_LIST_DIR}
 )
 
 # Add any user requested libraries
-target_link_libraries(jogoMemoria 
+target_link_libraries(SISTEMA_EMBARCADO_JOGO_DA_MEMORIA 
         hardware_i2c
         hardware_pio
         hardware_clocks
@@ -65,5 +65,5 @@ target_link_libraries(jogoMemoria
         hardware_pwm
         )
 
-pico_add_extra_outputs(jogoMemoria)
+pico_add_extra_outputs(SISTEMA_EMBARCADO_JOGO_DA_MEMORIA)
 
